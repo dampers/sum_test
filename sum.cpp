@@ -7,6 +7,7 @@ int sum(int n)
 	{
 		sum+=i;
 	}
+
 	return sum;
 }
 
