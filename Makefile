@@ -4,10 +4,10 @@ sum_test: sum.o main.o
 	g++ -o sum_test sum.o main.o
 
 sum.o: sum.h sum.cpp
-	g++ -C -o sum.o sum.cpp
+	g++ -c -o sum.o sum.cpp
 
 main.o: main.cpp sum.h
-	g++ -C -o main.o main.cpp
+	g++ -c -o main.o main.cpp
 
 
 clean: 
